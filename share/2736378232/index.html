@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperZIP-Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #4CAF50;
+            padding: 10px 0;
+            text-align: center;
+            color: white;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        .nav a {
+            padding: 14px 20px;
+            display: block;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+        }
+        .nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            text-align: center;
+            padding: 50px;
+        }
+        .download-btn {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 20px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+        }
+        .download-btn:hover {background-color: #3e8e41}
+        .download-btn:active {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>SuperZIP-Web</h1>
+    </div>
+
+    <div class="nav">
+        <a href="#about">About Us</a>
+        <a href="#upload">Datei hochladen</a>
+        <a href="#contact">Kontakt</a>
+        <a href="#support">Support</a>
+    </div>
+
+    <div class="container">
+        <h2>Willkommen bei SuperZIP-Web!</h2>
+        <p>Hier können Sie die Datei "meerschweinchenpdf.zip" herunterladen.</p>
+        <a href="blob:https://superzip-web.github.io/dl/meerschweinchenpdf.zip" class="download-btn">Datei herunterladen</a>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 SuperZIP-Web. Alle Rechte vorbehalten.</p>
+    </div>
+
+</body>
+</html>
